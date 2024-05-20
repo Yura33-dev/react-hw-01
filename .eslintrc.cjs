@@ -17,5 +17,10 @@ module.exports = {
       'warn',
       { allowConstantExport: true },
     ],
+    'no-irregular-whitespace': [
+      'warn',
+      { skipRegExps: true, skipTemplates: true, skipJSXText: true },
+    ],
+    'no-unused-vars': 'warn',
   },
-}
+};
